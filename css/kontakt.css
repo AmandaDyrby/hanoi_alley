@@ -1,1 +1,6 @@
 /* TOKE */
+
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

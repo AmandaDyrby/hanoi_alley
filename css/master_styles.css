@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  background-color: rgb(217, 202, 173);
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  color: rgb(92, 92, 92);
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  color: rgb(92, 92, 92);
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  color: rgb(92, 92, 92);
+}
