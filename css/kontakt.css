@@ -4,3 +4,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 800/350;
+}
