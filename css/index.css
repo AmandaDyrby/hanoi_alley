@@ -16,6 +16,7 @@ h4 {
   line-height: 72%;
   margin-top: 40%;
   padding-top: 20px;
+  z-index: 1000;
 }
 
 /* h2 {
@@ -117,15 +118,16 @@ header button {
 /* hero section */
 .hero {
   height: 100vh;
-  padding: 10px;
+  padding: 1px;
 }
 
 /* forsidebillede */
 
 .baguette {
   display: absolute;
-  margin: 20px auto 0;
+  margin: 20px auto auto;
   height: 200%;
+  width: 100%;
 }
 
 /* pil */
@@ -143,15 +145,40 @@ header button {
 /* tekst */
 
 /* buddha */
-.buddha {
+/* .buddha {
   opacity: 15%;
   z-index: 0;
-  right: 10px;
+  right: 0px;
+  display: overlay;
+  max-width: 100%;
+  height: 100%;
+  position: relative;
+} */
+
+.image-container {
+  position: relative; /* Sikrer, at teksten placeres i forhold til billedet */
+  width: 100%; /* Billedet fylder hele containerens bredde */
+  z-index: 0;
+  right: 0px;
   display: overlay;
   max-width: 100%;
   height: 100%;
 }
 
+.image-container img {
+  width: 100%;
+  opacity: 15%;
+  display: fixed;
+  bottom: 0;
+}
+
+.overlay-text {
+  position: absolute; /* Placér teksten ovenpå billedet */
+  top: 10%;
+  /* left: 5%; Afstand fra venstre side af billedet */
+  /* padding: 20px; Giver luft omkring teksten */
+  max-width: 100%; /* Begrænser bredden af teksten */
+}
 /* GRID */
 .afsnit1 {
   column-count: 2;
