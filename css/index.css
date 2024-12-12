@@ -1,7 +1,5 @@
 /* EMMA */
 
-/* EMMA */
-
 /* style */
 body {
   background-color: #d9caad;
@@ -20,14 +18,13 @@ h4 {
 }
 
 /* lanternerne*/
-/* Placer lanterne-containeren i baggrunden */
+
 .lanterne1,
 .lanterne2,
 .lanterne3 {
   position: fixed;
   top: 0;
-  width: 100px; /* Giv billederne en størrelse */
-
+  width: 100px;
   opacity: 25%;
   z-index: -1;
 }
@@ -45,102 +42,6 @@ h4 {
   left: 75%;
   height: 90%;
 }
-
-/* h2 {
-  font-family: playfair display;
-  color: #323131;
-  font-size: 5cqw;
-  margin-top: 5px;
-} */
-/* h3 {
-  font-family: playfair display;
-  color: #323131;
-  font-size: 3cqw;
-  margin-top: 30px;
-} */
-/* p {
-  font-family: poppins;
-  font-size: 3cqw;
-  text-align: start;
-  color: #323131;
-  margin-top: 10px;
-} */
-
-/* layout */
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
-/* mobil først */
-
-/* menuen */
-
-/* indsæt logo */
-/* header {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  padding: 20px;
-  display: flex;
-  justify-content: space-between; /* Logo til venstre og menu til højre */
-/* align-items: center;
-  color: #323131;
-} */
-
-/* .header {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-} */
-
-/* header span,
-header button {
-  font-size: 15px;
-  font-family: poppins;
-}
-
-#menuButton {
-  background: none;
-  border: none;
-  color: #323131;
-  cursor: pointer;
-  font-size: 15px;
-  font-family: roboto;
-} */
-
-/* #dropdownMenu {
-  position: absolute;
-  background-color: hsla(40, 37%, 76%, 0.858);
-  top: 50px;
-  right: 0px;
-  border-radius: 8px;
-  overflow: hidden;
-  padding: 10px 20px;
-  font-family: poppins;
-  display: none; /* Starter skjult */
-
-/* #dropdownMenu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-} */
-
-/* #dropdownMenu ul li a {
-  display: block;
-  padding: 10px;
-  color: #323131;
-  text-decoration: none;
-  font-size: 70px;
-  font-weight: bold;
-  font-family: poppins;
-} */
-
-/* #dropdownMenu ul li a:hover {
-  color: #d91414;
-} */
 
 /* hero section */
 .hero {
@@ -169,22 +70,9 @@ header button {
   left: 50%;
 }
 
-/* tekst */
-
-/* buddha */
-/* .buddha {
-  opacity: 15%;
-  z-index: 0;
-  right: 0px;
-  display: overlay;
-  max-width: 100%;
-  height: 100%;
-  position: relative;
-} */
-
 .image-container {
-  position: relative; /* Sikrer, at teksten placeres i forhold til billedet */
-  width: 100%; /* Billedet fylder hele containerens bredde */
+  position: relative;
+  width: 100%;
   z-index: 0;
   right: 0px;
   display: overlay;
@@ -200,11 +88,10 @@ header button {
 }
 
 .overlay-text {
-  position: absolute; /* Placér teksten ovenpå billedet */
+  position: absolute;
   top: 10%;
-  /* left: 5%; Afstand fra venstre side af billedet */
-  /* padding: 20px; Giver luft omkring teksten */
-  max-width: 100%; /* Begrænser bredden af teksten */
+
+  max-width: 100%;
 }
 /* GRID */
 .afsnit1 {
@@ -274,7 +161,7 @@ header button {
   .lanterne3 {
     position: fixed;
     top: 0;
-    width: 100px; /* Giv billederne en størrelse */
+    width: 100px;
 
     opacity: 25%;
     z-index: -1;
