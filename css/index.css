@@ -81,16 +81,15 @@ h4 {
 }
 
 .image-container img {
-  width: 100%;
+  width: 150%;
   opacity: 15%;
   display: fixed;
-  bottom: 0;
+  bottom: -50px;
 }
 
 .overlay-text {
   position: absolute;
   top: 10%;
-
   max-width: 100%;
 }
 /* GRID */
@@ -102,6 +101,7 @@ h4 {
 .tekst {
   margin-top: 40px;
 }
+
 /*over 600px bredde*/
 @media (min-width: 600px) {
   h4 {
