@@ -21,14 +21,17 @@ body {
 h1 {
   font-family: "Playfair Display", serif;
   color: var(--tekstfarve);
+  font-size: 5cqw;
 }
 
 h2 {
   font-family: "Playfair Display", serif;
   color: var(--tekstfarve);
+  font-size: 4cqw;
 }
 
 p {
   font-family: "Poppins", sans-serif;
   color: var(--tekstfarve);
+  font-size: 3cqw;
 }
