@@ -11,7 +11,7 @@ img {
 }
 
 html {
-  --tekstfarve: #5c5c5c;
+  --tekstfarve: #323131;
 }
 
 body {
@@ -22,6 +22,7 @@ h1 {
   font-family: "Playfair Display", serif;
   color: var(--tekstfarve);
   font-size: 5cqw;
+  padding-top: 5px;
 }
 
 h2 {
@@ -30,8 +31,16 @@ h2 {
   font-size: 4cqw;
 }
 
+h3 {
+  font-family: "Playfair Display", serif;
+  color: var(--tekstfarve);
+  font-size: 3cqw;
+}
+
 p {
   font-family: "Poppins", sans-serif;
   color: var(--tekstfarve);
   font-size: 3cqw;
+  text-align: start;
+  margin-top: 10px;
 }
