@@ -14,6 +14,80 @@ html {
   --tekstfarve: #323131;
 }
 
+/* menuen */
+
+/* indsæt logo */
+header {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; /* Logo til venstre og menu til højre */
+  align-items: center;
+  color: #323131;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+header span,
+header button {
+  font-size: 2cqw;
+  font-family: poppins;
+}
+
+#menuButton {
+  background: none;
+  border: none;
+  color: #323131;
+  cursor: pointer;
+  font-size: 2cqw;
+  font-family: poppins;
+}
+
+#dropdownMenu {
+  position: absolute;
+  background-color: hsla(40, 37%, 76%, 0.858);
+  top: 50px;
+  right: 0px;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 10px 20px;
+  font-family: poppins;
+  display: none; /* Starter skjult */
+}
+
+#dropdownMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#dropdownMenu ul li a {
+  display: block;
+  padding: 10px;
+  color: #323131;
+  text-decoration: none;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: poppins;
+}
+
+#dropdownMenu ul li a:hover {
+  color: #d91414;
+}
+
+.logo {
+  aspect-ratio: 1/1;
+  height: 10vw;
+}
+
 body {
   background-color: rgb(217, 202, 173);
 }
