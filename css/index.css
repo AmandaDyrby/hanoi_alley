@@ -17,6 +17,7 @@ h4 {
   margin-top: 40%;
   padding-top: 20px;
 }
+
 /* h2 {
   font-family: playfair display;
   color: #323131;
@@ -149,6 +150,16 @@ header button {
   display: overlay;
   max-width: 100%;
   height: 100%;
+}
+
+/* GRID */
+.afsnit1 {
+  column-count: 2;
+  column-gap: 100px;
+  padding: 25px;
+}
+.tekst {
+  margin-top: 40px;
 }
 /*over 600px bredde*/
 @media (min-width: 600px) {
