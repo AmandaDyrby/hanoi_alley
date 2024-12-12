@@ -1,5 +1,7 @@
 /* EMMA */
 
+/* EMMA */
+
 /* style */
 body {
   background-color: #d9caad;
@@ -8,7 +10,7 @@ body {
 h4 {
   font-family: playfair display;
   font-weight: bolder;
-  font-size: 28cqw;
+  font-size: 22cqw;
   text-align: center;
   color: #323131;
   line-height: 72%;
@@ -114,7 +116,7 @@ header button {
 /* hero section */
 .hero {
   height: 100vh;
-  padding: 20px;
+  padding: 10px;
 }
 
 /* forsidebillede */
@@ -122,8 +124,7 @@ header button {
 .baguette {
   display: absolute;
   margin: 20px auto 0;
-  max-width: 90%;
-  height: 100%;
+  height: 200%;
 }
 
 /* pil */
@@ -139,10 +140,6 @@ header button {
 }
 
 /* tekst */
-.indhold {
-  padding: 50px;
-  line-height: 150%;
-}
 
 /* buddha */
 .buddha {
@@ -162,7 +159,7 @@ header button {
     text-align: center;
     color: #323131;
     line-height: 72%;
-    margin-top: 10%;
+    margin-top: 0%;
     padding-top: 20px;
   }
   /* hero section */
@@ -183,18 +180,18 @@ header button {
 
   .pil {
     text-decoration: none;
-    font-size: 8cqw;
+    font-size: 3cqw;
     color: #d91414;
     text-align: center;
     position: absolute;
-    bottom: 8px;
+    bottom: -15px;
     left: 50%;
   }
 
   /* tekst */
   .indhold {
-    padding: 50px;
-    line-height: 150%;
+    padding: 0px;
+    top: 0%;
   }
 
   /* buddha */

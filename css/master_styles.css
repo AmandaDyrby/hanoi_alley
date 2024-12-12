@@ -54,7 +54,7 @@ header button {
 #dropdownMenu {
   position: absolute;
   background-color: hsla(40, 37%, 76%, 0.858);
-  top: 0px;
+  top: 50px;
   right: 0px;
   border-radius: 8px;
   overflow: hidden;
@@ -118,6 +118,8 @@ p {
   font-size: 3cqw;
   text-align: start;
   margin-top: 10px;
+  line-height: 150%;
+  text-decoration: none;
 }
 
 @media (min-width: 600px) {
@@ -164,10 +166,9 @@ p {
 
   #dropdownMenu {
     position: absolute;
-    background-color: hsla(40, 37%, 76%, 0.927);
-    justify-items: end;
+    background-color: hsla(40, 37%, 76%, 0.858);
+    top: 50px;
     right: 0px;
-    width: 100%;
     border-radius: 8px;
     overflow: hidden;
     padding: 10px 20px;
@@ -208,27 +209,29 @@ p {
   h1 {
     font-family: "Playfair Display", serif;
     color: var(--tekstfarve);
-    font-size: 5cqw;
+    font-size: 3cqw;
     padding-top: 15vw;
   }
 
   h2 {
     font-family: "Playfair Display", serif;
     color: var(--tekstfarve);
-    font-size: 4cqw;
+    font-size: 2cqw;
   }
 
   h3 {
     font-family: "Playfair Display", serif;
     color: var(--tekstfarve);
-    font-size: 3cqw;
+    font-size: 1cqw;
   }
 
   p {
     font-family: "Poppins", sans-serif;
     color: var(--tekstfarve);
-    font-size: 3cqw;
+    font-size: 1cqw;
     text-align: start;
     margin-top: 10px;
+    line-height: 150%;
+    text-decoration: none;
   }
 }
