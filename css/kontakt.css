@@ -10,3 +10,14 @@ iframe {
   height: auto;
   aspect-ratio: 800/350;
 }
+
+.tempel {
+  opacity: 20%;
+  aspect-ratio: 369/415.13;
+  position: absolute;
+  overflow: hidden;
+  bottom: -100px;
+  height: 900px;
+  z-index: -1;
+  left: 13rem;
+}

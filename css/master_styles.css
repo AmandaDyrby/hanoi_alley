@@ -38,7 +38,7 @@ header {
 
 header span,
 header button {
-  font-size: 2cqw;
+  font-size: 3cqw;
   font-family: poppins;
 }
 
@@ -47,7 +47,7 @@ header button {
   border: none;
   color: #323131;
   cursor: pointer;
-  font-size: 2cqw;
+  font-size: 3cqw;
   font-family: poppins;
 }
 
@@ -90,6 +90,8 @@ header button {
 
 body {
   background-color: rgb(217, 202, 173);
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 h1 {
