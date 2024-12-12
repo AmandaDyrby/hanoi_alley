@@ -90,13 +90,14 @@ header button {
 
 body {
   background-color: rgb(217, 202, 173);
+  padding: 50px;
 }
 
 h1 {
   font-family: "Playfair Display", serif;
   color: var(--tekstfarve);
   font-size: 5cqw;
-  padding-top: 5px;
+  padding-top: 15vw;
 }
 
 h2 {
