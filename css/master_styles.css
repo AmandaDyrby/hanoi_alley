@@ -19,7 +19,7 @@ html {
 /* indsæt logo */
 header {
   width: 100%;
-  position: relative;
+  position: absolute;
   top: 0;
   left: 0;
   padding: 20px;
@@ -90,8 +90,6 @@ header button {
 
 body {
   background-color: rgb(217, 202, 173);
-  padding-left: 4rem;
-  padding-right: 4rem;
 }
 
 h1 {
