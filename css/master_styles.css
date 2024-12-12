@@ -10,21 +10,25 @@ img {
   display: block;
 }
 
+html {
+  --tekstfarve: #5c5c5c;
+}
+
 body {
   background-color: rgb(217, 202, 173);
 }
 
 h1 {
   font-family: "Playfair Display", serif;
-  color: rgb(92, 92, 92);
+  color: var(--tekstfarve);
 }
 
 h2 {
   font-family: "Playfair Display", serif;
-  color: rgb(92, 92, 92);
+  color: var(--tekstfarve);
 }
 
 p {
   font-family: "Poppins", sans-serif;
-  color: rgb(92, 92, 92);
+  color: var(--tekstfarve);
 }
