@@ -169,13 +169,16 @@ a {
   #dropdownMenu {
     position: absolute;
     background-color: hsla(40, 37%, 76%, 0.858);
-    top: 50px;
+    top: 0px;
     right: 0px;
     border-radius: 8px;
     overflow: hidden;
     padding: 10px 20px;
     font-family: poppins;
     display: none; /* Starter skjult */
+    width: 100vw;
+    height: 50vw;
+    align-items: end;
   }
 
   #dropdownMenu ul {
