@@ -121,6 +121,10 @@ p {
   line-height: 150%;
   text-decoration: none;
 }
+a {
+  text-decoration: none;
+  color: #323131;
+}
 
 @media (min-width: 600px) {
   html {

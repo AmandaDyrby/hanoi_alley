@@ -17,6 +17,10 @@ h4 {
   z-index: 1000;
 }
 
+a {
+  text-decoration: none;
+  color: #323131;
+}
 /* lanternerne*/
 
 .lanterne1,
@@ -142,7 +146,7 @@ h4 {
 
   /* tekst */
   .indhold {
-    padding: 0px;
+    padding: 200px;
     top: 0%;
   }
 
