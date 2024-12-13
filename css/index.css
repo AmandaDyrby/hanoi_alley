@@ -186,4 +186,7 @@ h4 {
     background-size: 600px;
     background-position: 1200px 1300px;
   }
+  .overlay-text {
+    padding-bottom: 50px;
+  }
 }
