@@ -3,6 +3,11 @@
 /* style */
 body {
   background-color: #d9caad;
+  background-image: url(../img/svg/buddha.svg);
+  background-repeat: no-repeat;
+
+  background-size: 500px;
+  background-position: 100px 1750px;
 }
 
 h4 {
@@ -17,10 +22,6 @@ h4 {
   z-index: 1000;
 }
 
-a {
-  text-decoration: none;
-  color: #323131;
-}
 /* lanternerne*/
 
 .lanterne1,
@@ -84,12 +85,11 @@ a {
   height: 100%;
 }
 
-.image-container img {
+/* .image-container img {
   width: 150%;
-  opacity: 15%;
   display: fixed;
   bottom: -50px;
-}
+} */
 
 .overlay-text {
   position: absolute;
@@ -151,14 +151,13 @@ a {
   }
 
   /* buddha */
-  .buddha {
-    opacity: 15%;
+  /* .buddha {
     z-index: 0;
     right: 10px;
     display: overlay;
     max-width: 100%;
     height: 100%;
-  }
+  } */
 
   .lanterne1,
   .lanterne2,
