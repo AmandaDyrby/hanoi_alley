@@ -2,10 +2,8 @@
 
 /* style */
 body {
-  background-color: #d9caad;
   background-image: url(../img/svg/buddha.svg);
   background-repeat: no-repeat;
-
   background-size: 500px;
   background-position: 100px 1750px;
 }
@@ -146,8 +144,7 @@ h4 {
 
   /* tekst */
   .indhold {
-    padding: 200px;
-    top: 0%;
+    padding: 0px 200px 0px 200px;
   }
 
   /* buddha */
@@ -171,16 +168,22 @@ h4 {
   }
 
   .lanterne1 {
-    left: 5%;
+    left: 1%;
     height: 85%;
   }
 
   .lanterne2 {
-    left: 80%;
+    left: 85%;
     height: 80%;
   }
   .lanterne3 {
-    left: 85%;
+    left: 90%;
     height: 65%;
+  }
+  body {
+    background-image: url(../img/svg/buddha.svg);
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: 1200px 1800px;
   }
 }

@@ -97,7 +97,6 @@ h1 {
   font-family: "Playfair Display", serif;
   color: var(--tekstfarve);
   font-size: 5cqw;
-  padding-top: 15vw;
 }
 
 h2 {
@@ -213,7 +212,6 @@ a {
     font-family: "Playfair Display", serif;
     color: var(--tekstfarve);
     font-size: 3cqw;
-    padding-top: 15vw;
   }
 
   h2 {
