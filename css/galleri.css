@@ -39,6 +39,38 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+/* .image-1 
+start column 1, span 2
+start row 1*/
+
+/* .image-2 
+start column 3, span 1
+start row 1*/
+
+/* .image-3 
+start column 1, span 3
+start row 2*/
+
+/* .image-4 
+start column 1, span 3
+start row 3*/
+
+/* .image-5 
+start column 1, span 1
+start row 4*/
+
+/* .image-6 
+start column 2, span 2
+start row 4*/
+
+/* .image-7 
+start column 1, span 2
+start row 5*/
+
+/* .image-8 
+start column 3, span 1
+start row 5*/
+
 /* DESKTOP */
 
 @media (min-width: 600px) {
