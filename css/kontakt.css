@@ -3,10 +3,80 @@
 .grid_1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 70px;
+  padding: 10px;
 }
 
 iframe {
   width: 100%;
   height: auto;
   aspect-ratio: 800/350;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+body {
+  background-image: url(../img/svg/tempel.svg);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: 20px 350px;
+}
+
+h1 {
+  font-size: 7cqw;
+  margin-bottom: 30px;
+  padding-top: 7vw;
+}
+
+h2 {
+  font-size: 4.5cqw;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+p {
+  margin-top: 20px;
+}
+
+@media (min-width: 600px) {
+  h1 {
+    padding-top: 5vw;
+    font-size: 3.5cqw;
+  }
+  h2 {
+    font-size: 1.5cqw;
+    margin-top: 30px;
+  }
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 60px;
+  }
+  main {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  .kontaktinfo {
+    margin-top: 60px;
+    margin-left: 30px;
+  }
+  .h2klasse {
+    display: grid;
+    justify-items: center;
+  }
+  body {
+    background-image: url(../img/svg/tempel.svg);
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: 900px 150px;
+  }
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+  }
+  p {
+    font-size: 1cqw;
+  }
 }

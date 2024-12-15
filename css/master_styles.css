@@ -10,21 +10,234 @@ img {
   display: block;
 }
 
+html {
+  --tekstfarve: #323131;
+}
+
+/* menuen */
+
+/* indsæt logo */
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; /* Logo til venstre og menu til højre */
+  align-items: center;
+  color: #323131;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+header span,
+header button {
+  font-size: 3cqw;
+  font-family: poppins;
+}
+
+#menuButton {
+  background: none;
+  border: none;
+  color: #323131;
+  cursor: pointer;
+  font-size: 3cqw;
+  font-family: poppins;
+}
+
+#dropdownMenu {
+  position: absolute;
+  background-color: hsla(40, 37%, 76%, 0.858);
+  top: 0px;
+  right: 0px;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 10px 20px;
+  font-family: poppins;
+  display: none; /* Starter skjult */
+  width: 100vw;
+  height: 1000vw;
+  align-items: end;
+}
+#dropdownMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#dropdownMenu ul li a {
+  display: block;
+  padding: 10px;
+  color: #323131;
+  text-decoration: none;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: poppins;
+}
+
+#dropdownMenu ul li a:hover {
+  color: #d91414;
+}
+
+.logo {
+  aspect-ratio: 1/1;
+  height: 10vw;
+}
+
 body {
   background-color: rgb(217, 202, 173);
+  padding: 50px;
 }
 
 h1 {
   font-family: "Playfair Display", serif;
-  color: rgb(92, 92, 92);
+  color: var(--tekstfarve);
+  font-size: 5cqw;
 }
 
 h2 {
   font-family: "Playfair Display", serif;
-  color: rgb(92, 92, 92);
+  color: var(--tekstfarve);
+  font-size: 4cqw;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+  color: var(--tekstfarve);
+  font-size: 3cqw;
 }
 
 p {
   font-family: "Poppins", sans-serif;
-  color: rgb(92, 92, 92);
+  color: var(--tekstfarve);
+  font-size: 3cqw;
+  text-align: start;
+  margin-top: 10px;
+  line-height: 150%;
+  text-decoration: none;
+}
+a {
+  color: #323131;
+}
+
+@media (min-width: 600px) {
+  html {
+    --tekstfarve: #323131;
+  }
+
+  /* menuen */
+
+  /* indsæt logo */
+  header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Logo til venstre og menu til højre */
+    align-items: center;
+    color: #323131;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+
+  header span,
+  header button {
+    font-size: 1.5cqw;
+    font-family: poppins;
+  }
+
+  #menuButton {
+    background: none;
+    border: none;
+    color: #323131;
+    cursor: pointer;
+    font-size: 1.5cqw;
+    font-family: poppins;
+  }
+
+  #dropdownMenu {
+    position: absolute;
+    background-color: hsla(40, 37%, 76%, 0.858);
+    top: 0px;
+    right: 0px;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px 20px;
+    font-family: poppins;
+    display: none; /* Starter skjult */
+    width: 100vw;
+    height: 50vw;
+    align-items: end;
+  }
+
+  #dropdownMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #dropdownMenu ul li a {
+    display: block;
+    padding: 10px;
+    color: #323131;
+    text-decoration: none;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: poppins;
+  }
+
+  #dropdownMenu ul li a:hover {
+    color: #d91414;
+  }
+
+  .logo {
+    aspect-ratio: 1/1;
+    height: 70px;
+  }
+
+  body {
+    background-color: rgb(217, 202, 173);
+    padding: 50px;
+  }
+
+  h1 {
+    font-family: "Playfair Display", serif;
+    color: var(--tekstfarve);
+    font-size: 3cqw;
+  }
+
+  h2 {
+    font-family: "Playfair Display", serif;
+    color: var(--tekstfarve);
+    font-size: 2cqw;
+  }
+
+  h3 {
+    font-family: "Playfair Display", serif;
+    color: var(--tekstfarve);
+    font-size: 1cqw;
+  }
+
+  p {
+    font-family: "Poppins", sans-serif;
+    color: var(--tekstfarve);
+    font-size: 1cqw;
+    text-align: start;
+    margin-top: 10px;
+    line-height: 150%;
+    text-decoration: none;
+  }
 }
