@@ -22,12 +22,13 @@
 .booking-form {
   position: absolute;
   top: 50%;
-  right: 25px;
+  right: 20px;
   transform: translateY(-50%);
   background-color: #323131d0;
   color: #fdf4ab;
   padding: 10px;
   width: 70%;
+  border-radius: 5px;
 }
 
 .booking-form h2 {
@@ -73,6 +74,7 @@ input {
   border: 1px solid #fff;
   padding: 5px 30px;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .guest-input input {
@@ -86,6 +88,7 @@ input {
   font-weight: bolder;
   cursor: pointer;
   text-align: center;
+  border-radius: 5px;
 }
 
 .book-btn {
