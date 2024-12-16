@@ -64,6 +64,7 @@ header button {
   width: 100vw;
   height: 1000vw;
   align-items: end;
+  z-index: 1000;
 }
 #dropdownMenu ul {
   list-style: none;
