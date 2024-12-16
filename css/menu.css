@@ -13,3 +13,16 @@ h2 {
 p {
   margin-top: 20px;
 }
+
+@media (min-width: 800px) {
+  .menuer_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
