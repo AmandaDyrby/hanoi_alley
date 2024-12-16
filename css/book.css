@@ -1,3 +1,45 @@
+body {
+  background-color: rgb(217, 202, 173);
+  padding: 0px;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; /* Logo til venstre og menu til højre */
+  align-items: center;
+  color: #323131;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  z-index: 1000;
+}
+
+header span,
+header button {
+  font-size: 3cqw;
+  font-family: poppins;
+}
+
+#menuButton {
+  background: none;
+  border: none;
+  color: #323131;
+  cursor: pointer;
+  font-size: 3cqw;
+  font-family: poppins;
+  width: 10%;
+  margin-top: 3%;
+}
+
 .booking-container {
   display: flex;
   min-height: 80vh;
@@ -12,20 +54,20 @@
 }
 .booking-image img {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
   position: relative;
-  top: 50px;
+  top: 20px;
   left: 0;
-  opacity: 80%;
+  opacity: 90%;
 }
 
 .booking-form {
   position: absolute;
   top: 50%;
-  right: 20px;
+  left: 16%;
   transform: translateY(-50%);
-  background-color: #323131d0;
+  background-color: #d4d4b4b0;
   color: #fdf4ab;
   padding: 10px;
   width: 70%;
@@ -33,17 +75,19 @@
 }
 
 .booking-form h2 {
-  font-family: "poppins", sans-serif;
-  font-size: 2rem;
-  margin-bottom: 50px;
-  color: #fdf4ab;
+  font-family: "Playfair Display", serif;
+  color: var(--tekstfarve);
+  font-weight: bold;
+  font-size: 14cqw;
+  margin-bottom: 30px;
+  color: #d1414d;
 }
 
 label {
   display: block;
   margin: 10px 0 5px;
-  font-weight: lighter;
-  color: #fff9cd;
+  font-weight: normal;
+  color: #d1414d;
   font-family: poppins;
 }
 
@@ -59,8 +103,8 @@ button {
 
 select,
 input {
-  background-color: #ffffff;
-  color: #2b2b2b;
+  background-color: #d4d4b4bf;
+  color: #323131;
   border-radius: 15px;
 }
 
@@ -71,9 +115,9 @@ input {
 }
 
 .guest-input button {
-  background-color: #d1414db3;
-  color: #fff;
-  border: 1px solid #fff;
+  background-color: #d4d4b4eb;
+  color: #323131;
+  border: 1px solid #979780;
   padding: 5px 30px;
   cursor: pointer;
   border-radius: 5px;
@@ -127,26 +171,27 @@ input {
   .booking-form {
     position: absolute;
     top: 50%;
-    right: 15px;
+    left: 66%;
     transform: translateY(-50%);
-    background-color: #323131d0;
+    background-color: #d4d4b4b0;
     color: #fdf4ab;
     padding: 30px;
     width: 30%;
   }
-
   .booking-form h2 {
-    font-family: "poppins", sans-serif;
-    font-size: 2rem;
-    margin-bottom: 50px;
-    color: #fdf4ab;
+    font-family: "Playfair Display", serif;
+    color: var(--tekstfarve);
+    font-weight: bold;
+    font-size: 6cqw;
+    margin-bottom: 70px;
+    color: #d1414d;
   }
 
   label {
     display: block;
     margin: 10px 0 5px;
-    font-weight: lighter;
-    color: #fff9cd;
+    font-weight: normal;
+    color: #d1414d;
     font-family: poppins;
   }
 
@@ -162,8 +207,9 @@ input {
 
   select,
   input {
-    background-color: #ffffff;
-    color: #2b2b2b;
+    background-color: #d4d4b4bf;
+    color: #323131;
+    border-radius: 15px;
   }
 
   .guest-input {
@@ -173,11 +219,12 @@ input {
   }
 
   .guest-input button {
-    background-color: #d1414db3;
-    color: #fff;
-    border: 1px solid #fff;
+    background-color: #d4d4b4eb;
+    color: #323131;
+    border: 1px solid #979780;
     padding: 5px 30px;
     cursor: pointer;
+    border-radius: 5px;
   }
 
   .guest-input input {
@@ -191,6 +238,7 @@ input {
     font-weight: bolder;
     cursor: pointer;
     text-align: center;
+    border-radius: 5px;
   }
 
   .book-btn {
@@ -199,5 +247,35 @@ input {
     font-weight: bold;
     padding: 10px;
     cursor: pointer;
+    border-radius: 5px;
+  }
+
+  header span,
+  header button {
+    font-size: 1.5cqw;
+    font-family: poppins;
+  }
+
+  #menuButton {
+    background: none;
+    border: none;
+    color: #323131;
+    cursor: pointer;
+    font-size: 1.5cqw;
+    font-family: poppins;
+    width: 10%;
+    margin-top: 1.5%;
+  }
+
+  header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Logo til venstre og menu til højre */
+    align-items: center;
+    color: #323131;
   }
 }

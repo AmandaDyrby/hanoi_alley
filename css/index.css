@@ -1,6 +1,10 @@
 /* EMMA */
 
 /* style */
+
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-image: url(../img/svg/buddha.svg);
   background-repeat: no-repeat;
@@ -190,5 +194,14 @@ h4 {
   }
   .overlay-text {
     padding-bottom: 50px;
+  }
+
+  #menuButton {
+    background: none;
+    border: none;
+    color: #323131;
+    cursor: pointer;
+    font-size: 1.5cqw;
+    font-family: poppins;
   }
 }
