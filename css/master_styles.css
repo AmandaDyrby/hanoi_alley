@@ -180,7 +180,7 @@ a {
     font-family: poppins;
     display: none; /* Starter skjult */
     width: 100vw;
-    height: 50vw;
+    height: 100vh;
     align-items: end;
   }
 
