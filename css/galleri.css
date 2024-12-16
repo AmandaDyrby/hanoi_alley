@@ -92,9 +92,10 @@ start row 5*/
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-repeat: none;
+    /* background-repeat: none; */
     transition: flex 0.8s ease;
 
+    /* her kommer der fejl, kan læse at det er for advanceret til en ren css, men tænker det er okay vi har prøvet at gøre noget lidt ekstra <3 */
     &:hover {
       flex: 6;
     }
