@@ -1,0 +1,28 @@
+h1 {
+  font-size: 7cqw;
+  margin-bottom: 30px;
+  padding-top: 7vw;
+}
+
+h2 {
+  font-size: 4.5cqw;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+form {
+  margin-top: 200px;
+}
+
+main {
+  margin: auto;
+}
+
+.flex_book {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-right: 200px;
+}
