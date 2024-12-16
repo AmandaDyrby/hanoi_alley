@@ -46,48 +46,50 @@
       </nav>
     </header>
 
-    <div class="booking-container">
-      <!-- Billedet -->
-      <div class="booking-image">
-        <img src="img/blomster.webp" alt="vietnam" />
+    <main>
+      <div class="booking-container">
+        <!-- Billedet -->
+        <div class="booking-image">
+          <img src="img/blomster.webp" alt="vietnam" />
+        </div>
+
+        <!-- Formularen -->
+        <div class="booking-form">
+          <h2>BOOK BORD</h2>
+          <form id="bookingForm">
+            <label for="restaurant">Vælg restaurant:</label>
+            <select id="restaurant" name="restaurant">
+              <option>Nørrebro</option>
+              <option>København K</option>
+            </select>
+
+            <label for="guests">Antal gæster:</label>
+            <div class="guest-input">
+              <button type="button" onclick="changeGuests(-1)">-</button>
+              <input type="number" id="guests" name="guests" value="2" min="1" readonly />
+              <button type="button" onclick="changeGuests(1)">+</button>
+            </div>
+
+            <label for="date">Dato:</label>
+            <input type="date" id="date" name="date" />
+
+            <button type="button" class="continue-btn" onclick="showContactFields()">FORSÆT</button>
+
+            <!-- SKJULT -->
+            <div id="contactFields" style="display: none">
+              <label for="phone">Telefonnummer:</label>
+              <input type="tel" id="phone" name="phone" placeholder="Indtast telefonnummer" />
+
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" placeholder="Indtast e-mail" />
+              <a href="menu.html">
+                <button type="button" class="book-btn">BOOK</button>
+              </a>
+            </div>
+          </form>
+        </div>
       </div>
-
-      <!-- Formularen -->
-      <div class="booking-form">
-        <h2>BOOK BORD</h2>
-        <form id="bookingForm">
-          <label for="restaurant">Vælg restaurant:</label>
-          <select id="restaurant" name="restaurant">
-            <option>Nørrebro</option>
-            <option>København K</option>
-          </select>
-
-          <label for="guests">Antal gæster:</label>
-          <div class="guest-input">
-            <button type="button" onclick="changeGuests(-1)">-</button>
-            <input type="number" id="guests" name="guests" value="2" min="1" readonly />
-            <button type="button" onclick="changeGuests(1)">+</button>
-          </div>
-
-          <label for="date">Dato:</label>
-          <input type="date" id="date" name="date" />
-
-          <button type="button" class="continue-btn" onclick="showContactFields()">FORSÆT</button>
-
-          <!-- SKJULT -->
-          <div id="contactFields" style="display: none">
-            <label for="phone">Telefonnummer:</label>
-            <input type="tel" id="phone" name="phone" placeholder="Indtast telefonnummer" />
-
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" placeholder="Indtast e-mail" />
-            <a href="menu.html">
-              <button type="button" class="book-btn">BOOK</button>
-            </a>
-          </div>
-        </form>
-      </div>
-    </div>
+    </main>
     <script src="book.js"></script>
     <script src="javascript.js"></script>
   </body>
