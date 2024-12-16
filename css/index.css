@@ -20,6 +20,14 @@ h4 {
   z-index: 1000;
 }
 
+#menuButton {
+  background: none;
+  border: none;
+  color: #323131;
+  cursor: pointer;
+  font-size: 3cqw;
+  font-family: poppins;
+}
 /* lanternerne*/
 
 .lanterne1,
@@ -39,10 +47,12 @@ h4 {
 .lanterne2 {
   left: 80%;
   height: 80%;
+  display: none;
 }
 .lanterne3 {
   left: 75%;
   height: 90%;
+  display: none;
 }
 
 /* hero section */
