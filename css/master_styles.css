@@ -63,7 +63,7 @@ header button {
   font-family: poppins;
   display: none; /* Starter skjult */
   width: 100vw;
-  height: 1000vw;
+  height: 200vw;
   align-items: end;
   z-index: 1000;
 }
