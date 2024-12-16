@@ -126,7 +126,7 @@ a {
   color: #323131;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   html {
     --tekstfarve: #323131;
   }

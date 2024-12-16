@@ -37,7 +37,7 @@ p {
   margin-top: 20px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   h1 {
     padding-top: 5vw;
     font-size: 3.5cqw;
