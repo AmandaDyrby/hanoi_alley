@@ -138,12 +138,18 @@ input {
 }
 
 .book-btn {
+  font-family: poppins;
+  display: inline-block; /* Sørger for at knappen ligner en rigtig knap */
   background-color: #d1414db3;
   color: #fdf4ab;
+  padding: 8px 126px;
+  text-decoration: none; /* Fjern understregning */
   font-weight: bold;
-  padding: 10px;
+  border: none;
+  border-radius: 5px; /* Giver afrundede hjørner */
   cursor: pointer;
-  border-radius: 5px;
+  text-align: center;
+  font-size: 3cqw;
 }
 
 @media (min-width: 800px) {
@@ -242,12 +248,18 @@ input {
   }
 
   .book-btn {
+    font-family: poppins;
+    display: inline-block; /* Sørger for at knappen ligner en rigtig knap */
     background-color: #d1414db3;
     color: #fdf4ab;
+    padding: 1px 190px;
+    text-decoration: none; /* Fjern understregning */
     font-weight: bold;
-    padding: 10px;
+    border: none;
+    border-radius: 5px; /* Giver afrundede hjørner */
     cursor: pointer;
-    border-radius: 5px;
+    text-align: center;
+    font-size: 1.5cqw;
   }
 
   header span,
