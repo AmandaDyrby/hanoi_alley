@@ -6,7 +6,6 @@
   top: 50px;
 }
 
-/* Venstre del - billedet */
 .booking-image {
   flex: 2;
   background: url("img/blomster.webp") center/cover no-repeat;
@@ -20,7 +19,6 @@
   left: 0;
 }
 
-/* Højre del - formularen */
 .booking-form {
   position: absolute;
   top: 50%;
@@ -29,7 +27,7 @@
   background-color: #323131d0;
   color: #fdf4ab;
   padding: 10px;
-  width: 70%; /* Bredden af formularen */
+  width: 70%;
 }
 
 .booking-form h2 {
@@ -101,13 +99,12 @@ input {
 @media (min-width: 800px) {
   .booking-container {
     display: flex;
-    min-height: 100vh; /* Gør containeren lige så høj som skærmen */
+    min-height: 100vh;
     position: relative;
     overflow: hidden;
     top: 50px;
   }
 
-  /* Venstre del - billedet */
   .booking-image {
     flex: 2;
     background: url("img/blomster.webp") center/cover no-repeat;
@@ -121,7 +118,6 @@ input {
     left: 0;
   }
 
-  /* Højre del - formularen */
   .booking-form {
     position: absolute;
     top: 50%;
@@ -130,7 +126,7 @@ input {
     background-color: #323131d0;
     color: #fdf4ab;
     padding: 30px;
-    width: 30%; /* Bredden af formularen */
+    width: 30%;
   }
 
   .booking-form h2 {

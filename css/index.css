@@ -28,12 +28,12 @@ h4 {
   position: fixed;
   top: 0;
   /* width: 100px; */
-  opacity: 100%;
+  opacity: 30%;
   z-index: 1000;
 }
 
 .lanterne1 {
-  left: -10%;
+  left: -62%;
 }
 
 .lanterne2 {
