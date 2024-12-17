@@ -1,79 +1,78 @@
 /* BILLEDER */
 
 .image-1 {
-  background-image: url(../img/retsaurant/IMG_1313.JPG);
+  background-image: url(../img/retsaurant/IMG_1313.webp);
 }
 
 .image-2 {
-  background-image: url(../img/lanterns/IMG_1281.JPG);
+  background-image: url(../img/lanterns/IMG_1281.webp);
 }
 
 .image-3 {
-  background-image: url(../img/portrait/IMG_1311_edit.JPG);
+  background-image: url(../img/portrait/IMG_1311_edit.webp);
 }
 
 .image-4 {
-  background-image: url(../img/outside/IMG_1286.JPG);
+  background-image: url(../img/outside/IMG_1286.webp);
 }
 
 .image-5 {
-  background-image: url(../img/IMG_1299.JPG);
+  background-image: url(../img/IMG_1299.webp);
 }
 
 .image-6 {
-  background-image: url(../img/food/IMG_1317_long.JPG);
+  background-image: url(../img/food/IMG_1317_long.webp);
 }
 
 .image-7 {
-  background-image: url(../img/IMG_1274.JPG);
+  background-image: url(../img/IMG_1274.webp);
 }
 
 .image-8 {
-  background-image: url(../img/IMG_1297.JPG);
+  background-image: url(../img/IMG_1297.webp);
 }
 
 /* MOBILE */
-
-.grid_1-1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.container {
+  padding: 5cqw 0;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding-top: 10vh;
 }
 
-/* .image-1 
-start column 1, span 2
-start row 1*/
+.galleri_desktop {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: repeat(30cqw, auto);
+  width: 100%;
+  height: 90cqw;
+  gap: 10px;
+  padding-top: 10px;
+}
+@media (max-width: 799px) {
+  .span_1x2 {
+    grid-column: span 2;
+  }
+  .span_1x3 {
+    grid-column: span 3;
+  }
+}
 
-/* .image-2 
-start column 3, span 1
-start row 1*/
+.image {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  transition: flex 0.8s ease;
 
-/* .image-3 
-start column 1, span 3
-start row 2*/
-
-/* .image-4 
-start column 1, span 3
-start row 3*/
-
-/* .image-5 
-start column 1, span 1
-start row 4*/
-
-/* .image-6 
-start column 2, span 2
-start row 4*/
-
-/* .image-7 
-start column 1, span 2
-start row 5*/
-
-/* .image-8 
-start column 3, span 1
-start row 5*/
+  &:hover {
+    flex: 6;
+  }
+}
 
 /* DESKTOP */
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
   .container {
     padding: 5cqw 0;
     margin: 0 auto;
@@ -85,6 +84,8 @@ start row 5*/
     flex-direction: row;
     width: 100%;
     height: 35cqw;
+    gap: 0px;
+    padding-top: 0px;
   }
 
   .image {
@@ -92,10 +93,8 @@ start row 5*/
     height: 100%;
     background-position: center;
     background-size: cover;
-    /* background-repeat: none; */
     transition: flex 0.8s ease;
 
-    /* her kommer der fejl, kan læse at det er for advanceret til en ren css, men tænker det er okay vi har prøvet at gøre noget lidt ekstra <3 */
     &:hover {
       flex: 6;
     }
